@@ -7,10 +7,10 @@ This is an applicaton which helps in distinguishing between various categories l
 * K- means algorithm was used to solve the clustering problem. The procedure followed a simple way to classify a given data set through 4 clusters.
 
 ### Task 1: Step Count
-	Procedure:
-	1) Magnitude of data, i.e., sqrt(accel_x^2 + accel_y^2 + accel_z^2) calculated
-	2) Mean of magnitude of data subtracted to get new 0 mean
-	3) Number of zero crossings calculated to get number of steps
+Procedure:
+* Magnitude of data, i.e., sqrt(accel_x^2 + accel_y^2 + accel_z^2) calculated
+* Mean of magnitude of data subtracted to get new 0 mean
+* Number of zero crossings calculated to get number of steps
 	
 ### Task 2: Data Collection
 Procedure:
