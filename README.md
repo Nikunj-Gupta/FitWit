@@ -13,20 +13,20 @@ This is an applicaton which helps in distinguishing between various categories l
 	3) Number of zero crossings calculated to get number of steps
 	
 ### Task 2: Data Collection
-	Procedure:
-	1) 1500 samples collected for each activity
-	2) Windowed into groups of size 150 to generate 6 features for each window
-	3) Gives (1500/150) = 10 training data samples for each activity, each of dimension 6
-	4) Final training data matrix of size 40 X 6 supplied to clustering algorithm
+Procedure:
+* 1500 samples collected for each activity
+* Windowed into groups of size 150 to generate 6 features for each window
+* Gives (1500/150) = 10 training data samples for each activity, each of dimension 6
+* Final training data matrix of size 40 X 6 supplied to clustering algorithm
 	
 ### Feature Extraction
-	6 features used - 3 in time, and 3 in frequency domain (NOTE - magnitude of data is sqrt(accel_x^2 + accel_y^2 + accel_z^2))
-		1) Feature 1: mean of magnitude of data
-		2) Feature 2: sum of magnitude of data below 25 percentile
-		3) Feature 3: sum of magnitude of data below 75 percentile
-		4) Feature 4: peak frequency in spectrum of magnitude of data below 5 Hz
-		5) Feature 5: number of peaks in spectrum of magnitude of data below 5 Hz
-		6) Feature 6: sum of spectrum of magnitude of data from 0 to 5 Hz
+6 features used - 3 in time, and 3 in frequency domain (NOTE - magnitude of data is sqrt(accel_x^2 + accel_y^2 + accel_z^2))
+* Feature 1: mean of magnitude of data
+* Feature 2: sum of magnitude of data below 25 percentile
+* Feature 3: sum of magnitude of data below 75 percentile
+* Feature 4: peak frequency in spectrum of magnitude of data below 5 Hz
+* Feature 5: number of peaks in spectrum of magnitude of data below 5 Hz
+* Feature 6: sum of spectrum of magnitude of data from 0 to 5 Hz
 
 ### Observations
 * Using only time domain features we get distinct clusters for walking and running (cluster 4 and 2 respectively). Jumping and climbing are not well separated.
