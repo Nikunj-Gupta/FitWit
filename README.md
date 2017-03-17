@@ -1,5 +1,5 @@
 ### Introduction
-This is an applicaton which helps in distinguishing between various categories like running, jumping, walking or climbing based on the given fitness data from fitness applications and devices. It uses machine learning models including kmeans clustering on the data.
+This is an application which helps in distinguishing between various categories like running, jumping, walking or climbing based on the given fitness data from fitness applications and devices. It uses machine learning models including kmeans clustering on the data.
  
 ### Project
 * We used the ‘AndroSensor’ app for the activity data.
