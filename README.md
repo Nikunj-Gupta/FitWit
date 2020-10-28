@@ -45,8 +45,7 @@ Procedure:
 
 ### Acknowledgements
 
-* [Prof. Sujit Kumar Chakrabarti][profskc] for guiding us and giving us an opportunity to learn a lot from such a project.
-* My seniors for giving useful tips and ideas for successfully completing our project.
+* Prof. Dinesh Babu J. for guiding us and giving us an opportunity to learn a lot from such a project.
 
 ### Development
 
